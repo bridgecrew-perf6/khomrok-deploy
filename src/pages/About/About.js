@@ -34,7 +34,7 @@ const About = () => {
                     <div id="line"></div>
                     <p>Khan Tuol Kouk, Phnom Penh, Cambodia</p>
                     <p>Tel: 0123456789</p>
-                    <p>Email: <a href="www.google.com">khomrok@gmail.com</a></p>
+                    <p>Email: <a href="#!">khomrok@gmail.com</a></p>
                 </div>
             </div>
 
