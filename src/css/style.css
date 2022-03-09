@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
-.boost-job .boost-content .header, .boost-job .side-content .reserved, .register-form .card .card-body form .user-name, .register-form .card .card-body form .signEmail, .register-form .card .card-header, .register-form, .term-of-use .term-sheet .title-term .tools, .job-post .image-tool, .job-post .form-input .preview, .signIn .signCard .card-footer .socialMedia a:nth-child(3), .signIn .signCard .card-footer .socialMedia a, .signIn .signCard .card-footer .socialMedia, .signIn .signCard .card-body form .log .log-btn button, .signIn .signCard .card-body form .log .log-btn, .signIn .signCard .card-body form .log, .signIn .signCard .card-body form .signEmail, .signIn .signCard .signInHeader, .signIn, .wrapper .col-md-6 .text-center .button, .favorites .sidebar .card .card-body form .find-fav, .favorites .sidebar .card .card-body form .tools, .favorites .sidebar .card .card-header, .job-sidebar .button-apply, .job-sidebar .tools, .type-page .types-menu form, .type-page .types-menu, main .content-container, header .slider-content .browse .move-down a, header .slider-content .browse, header .slider-content, .navbar .collapse.navbar-collapse .sign-in a #register, .navbar .collapse.navbar-collapse .sign-in a #sign-in, .navbar .collapse.navbar-collapse .sign-in, .navbar .collapse.navbar-collapse .search-item, .navbar .collapse.navbar-collapse, .navbar .mb-menu .nav .navbar-nav, .home .browse-bottom .move-down a, .home .browse-bottom, .favorites .fav-items-content .row .card .card-footer .content .share-job button, .favorites .fav-items-content .row .card .card-footer .content .add-fav button, .favorites .fav-items-content .row .card .card-footer .content .apply button, .job-sidebar .button-apply .share-job button, .job-sidebar .button-apply .add-fav button, .job-sidebar .button-apply .apply button, main .container-fluid .row .card .card-footer .content .share-job button, main .container-fluid .row .card .card-footer .content .add-fav button, main .container-fluid .row .card .card-footer .content .apply button {
+.boost-job .boost-content .get-btn, .boost-job .boost-content .header, .boost-job .side-content .reserved, .register-form .card .card-body form .user-name, .register-form .card .card-body form .signEmail, .register-form .card .card-header, .register-form, .term-of-use .term-sheet .title-term .tools, .job-post .image-tool, .job-post .form-input .preview, .signIn .signCard .card-footer .socialMedia a:nth-child(3), .signIn .signCard .card-footer .socialMedia a, .signIn .signCard .card-footer .socialMedia, .signIn .signCard .card-body form .log .log-btn button, .signIn .signCard .card-body form .log .log-btn, .signIn .signCard .card-body form .log, .signIn .signCard .card-body form .signEmail, .signIn .signCard .signInHeader, .signIn, .wrapper .col-md-6 .text-center .button, .favorites .sidebar .card .card-body form .find-fav, .favorites .sidebar .card .card-body form .tools, .favorites .sidebar .card .card-header, .job-sidebar .button-apply, .job-sidebar .tools, .type-page .types-menu form, .type-page .types-menu, main .content-container, header .slider-content .browse .move-down a, header .slider-content .browse, header .slider-content, .navbar .collapse.navbar-collapse .sign-in a #register, .navbar .collapse.navbar-collapse .sign-in a #sign-in, .navbar .collapse.navbar-collapse .sign-in, .navbar .collapse.navbar-collapse .search-item, .navbar .collapse.navbar-collapse, .navbar .mb-menu .nav .navbar-nav, .home .browse-bottom .move-down a, .home .browse-bottom, .favorites .fav-items-content .row .card .card-footer .content .share-job button, .favorites .fav-items-content .row .card .card-footer .content .add-fav button, .favorites .fav-items-content .row .card .card-footer .content .apply button, .job-sidebar .button-apply .share-job button, .job-sidebar .button-apply .add-fav button, .job-sidebar .button-apply .apply button, main .container-fluid .row .card .card-footer .content .share-job button, main .container-fluid .row .card .card-footer .content .add-fav button, main .container-fluid .row .card .card-footer .content .apply button {
   display: flex;
   align-items: center;
 }
@@ -1093,6 +1093,10 @@ footer .row .f-menu a:hover {
     padding-left: 100px;
     padding-right: 100px;
   }
+
+  .job-post .logo-post .form-input img {
+    width: 110px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .navbar .search-item {
@@ -1163,6 +1167,24 @@ footer .row .f-menu a:hover {
   }
 }
 @media only screen and (max-width: 1000px) {
+  .boost-job .boost-content .body {
+    overflow-x: auto;
+  }
+
+  .info-job .job-sidebar {
+    width: 300px;
+  }
+  .info-job .info-content {
+    margin: 95px 10px 10px 320px;
+  }
+  .info-job .copyright {
+    margin: 0 10px 10px 320px;
+  }
+
+  .job-post .form-group-heading .logo-post img {
+    width: 40px;
+  }
+
   #term-of-use #term-sheet {
     margin: 110px 100px;
   }
@@ -1240,8 +1262,91 @@ footer .row .f-menu a:hover {
   .wrapper {
     margin-top: 70px;
   }
+
+  .favorites .sidebar .card {
+    margin-top: 30px;
+  }
+  .favorites .fav-items-content {
+    margin-top: 100px;
+  }
 }
 @media only screen and (max-width: 768px) {
+  #mb-menu .nav-item .tooltips {
+    font-size: 12px;
+    width: fit-content;
+  }
+
+  #boost-job .side-content {
+    display: none;
+    width: 0;
+  }
+  #boost-job .boost-content {
+    margin-left: 0;
+  }
+  #boost-job .boost-content .header h3 {
+    font-size: 20px;
+  }
+  #boost-job .boost-content .body table tr th {
+    font-size: 14px;
+  }
+  #boost-job .boost-content .body table tr td {
+    font-size: 12px;
+  }
+  #boost-job .boost-content .body table tr td button {
+    font-size: 12px;
+  }
+  #boost-job .boost-content .body table tr td span.choice {
+    font-size: 15px;
+  }
+  #boost-job .boost-content .get-btn .btn-register {
+    font-size: 12px;
+  }
+
+  .info-job .job-sidebar {
+    width: calc(100% - 20px);
+    height: fit-content;
+    position: relative;
+    margin: 100px 10px 10px 10px;
+    padding-bottom: 0;
+  }
+  .info-job .job-sidebar .tools .back-btn .iconify {
+    font-size: 25px;
+  }
+  .info-job .job-sidebar .info-logo img {
+    width: 80px;
+  }
+  .info-job .job-sidebar .info-logo .company {
+    font-size: 18px;
+  }
+  .info-job .job-sidebar .button-apply {
+    padding: 5px;
+    gap: 20px;
+    position: relative;
+    margin: 0;
+    margin-left: 0;
+    background-color: unset;
+    border-top: 1px solid #ececec;
+  }
+  .info-job .job-sidebar .button-apply .apply .iconify {
+    font-size: 18px;
+  }
+  .info-job .job-sidebar .button-apply .add-fav .iconify {
+    font-size: 18px;
+  }
+  .info-job .job-sidebar .button-apply .share-job .iconify {
+    font-size: 18px;
+  }
+  .info-job .info-content {
+    margin: 10px 10px 10px 10px;
+  }
+  .info-job .copyright {
+    margin-left: 10px;
+  }
+
+  .job-post .form-group-heading .logo-post img {
+    width: 30px;
+  }
+
   #term-of-use #term-sheet {
     margin: 110px 70px;
   }
@@ -1314,6 +1419,7 @@ footer .row .f-menu a:hover {
   .favorites .sidebar .card {
     min-height: fit-content;
     width: 100%;
+    margin-top: -6px;
   }
   .favorites .sidebar .card .card-header h3 {
     font-size: 16px;
@@ -1405,9 +1511,47 @@ footer .row .f-menu a:hover {
   }
 }
 @media only screen and (max-width: 575px) {
+  .info-job .job-sidebar .info-logo img {
+    width: 50px;
+  }
+  .info-job .job-sidebar .info-logo .company h5 {
+    font-size: 16px;
+  }
+  .info-job .job-sidebar .info-logo .company p {
+    font-size: 11px;
+  }
+  .info-job .job-sidebar .info-position p {
+    font-size: 12px;
+  }
+  .info-job .info-content table td {
+    font-size: 12px;
+  }
+  .info-job .info-content .job-description h4 {
+    font-size: 14px;
+  }
+  .info-job .info-content .job-description .detailed {
+    font-size: 12px;
+  }
+  .info-job .info-content .job-description p {
+    font-size: 12px;
+  }
+  .info-job .copyright a {
+    font-size: 12px;
+  }
+  .info-job .copyright p {
+    font-size: 12px;
+  }
+
+  .job-post .form-group-heading .logo-post img {
+    width: 30px;
+  }
+
   main .content-container {
     padding-left: 100px;
     padding-right: 100px;
+  }
+  main .content-container .count-jobs {
+    font-size: 12px;
   }
 
   footer h5 {
@@ -1439,8 +1583,20 @@ footer .row .f-menu a:hover {
   .signIn .signCard .card-footer .otherWays p {
     font-size: 10px;
   }
+
+  .favorites .sidebar .card {
+    margin-top: -7px;
+  }
+  .favorites .fav-items-content {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
 }
 @media only screen and (max-width: 512px) {
+  .job-post .form-group-heading .logo-post img {
+    width: 35px;
+  }
+
   #term-of-use #term-sheet {
     margin: 110px 20px;
   }
@@ -1532,12 +1688,19 @@ footer .row .f-menu a:hover {
     width: 15px;
   }
 
+  .favorites .sidebar .card {
+    margin-top: -5px;
+  }
   .favorites .fav-items-content {
     margin-left: 100px;
     margin-right: 100px;
   }
 }
 @media only screen and (max-width: 380px) {
+  .job-post .form-group-heading .logo-post img {
+    width: 30px;
+  }
+
   #term-of-use #term-sheet {
     margin: 110px 10px;
   }
@@ -1637,9 +1800,12 @@ footer .row .f-menu a:hover {
     display: none;
   }
 
+  .favorites .sidebar .card {
+    margin-top: -10px;
+  }
   .favorites .fav-items-content {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .signIn .signCard .signInHeader .signTitle h3 {
@@ -1686,6 +1852,9 @@ footer .row .f-menu a:hover {
 }
 .job-post .form-group-heading:hover {
   cursor: pointer;
+}
+.job-post .form-group-heading .logo-post .form-input img {
+  width: 90px;
 }
 .job-post .form-group-content {
   width: 100%;
@@ -2095,6 +2264,19 @@ footer .row .f-menu a:hover {
   border-radius: 5px;
   border: 2px solid #2b95ff;
   color: #2b95ff;
+}
+.boost-job .boost-content .get-btn {
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+.boost-job .boost-content .get-btn .btn-register {
+  width: 50%;
+  border: none;
+  background-color: #2b95ff;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

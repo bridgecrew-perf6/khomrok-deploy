@@ -21,7 +21,7 @@ const InfoContent = ({data}) => {
     }
     
     return (
-        <>
+        <div className="info-job">
             <div className="job-sidebar">
                 <>
                     <div className="tools">
@@ -147,7 +147,7 @@ const InfoContent = ({data}) => {
                     </div>
                 </footer>
             </>
-        </>
+        </div>
     )
 }
 

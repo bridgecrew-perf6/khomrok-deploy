@@ -37,7 +37,7 @@ export const DataProvider = ({children}) => {
     const [description, setDescription] = useState("");
 
     const API_URL_All = 'https://api-for-jobfinder-project.herokuapp.com/data';
-    let limit = 40;
+    let limit = 36;
     // let pageAddress = `/page${currentPage}`;
 
     const locations = useLocation();
